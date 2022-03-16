@@ -26,9 +26,9 @@ const App = () => {
 
     return (
         <div display='flex' justify='center' align='center'>
-            <Greeter phrase="Hello there" name="Richard" admin={true} />
-            <Greeter phrase="Hello there" name="Brandon" />
-            <Greeter phrase="Hello there" name="Mel" />
+            <Greeter phrase="Hello there" name="Nathan" admin={true} />
+            <Greeter phrase="Hello there" name="Garrett" />
+            <Greeter phrase="Hello there" name="Nick" />
             <input value={username} onChange={e => setUsername(e.target.value)}></input>
             <p>You are logging in as {username}!</p>
         </div>
